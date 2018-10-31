@@ -12,6 +12,8 @@
 		172681C2218A006E00DE6497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172681C0218A006E00DE6497 /* Main.storyboard */; };
 		172681C4218A006F00DE6497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172681C3218A006F00DE6497 /* Assets.xcassets */; };
 		172681C7218A006F00DE6497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172681C5218A006F00DE6497 /* LaunchScreen.storyboard */; };
+		172681D0218A00C800DE6497 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172681CF218A00C800DE6497 /* AudioToolbox.framework */; };
+		172681D4218A09A600DE6497 /* custom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 172681D3218A055C00DE6497 /* custom.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		172681C3218A006F00DE6497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172681C6218A006F00DE6497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		172681C8218A006F00DE6497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172681CF218A00C800DE6497 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		172681D3218A055C00DE6497 /* custom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = custom.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172681D0218A00C800DE6497 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				172681BB218A006E00DE6497 /* NorainuQuizApp */,
 				172681BA218A006E00DE6497 /* Products */,
+				172681CE218A00C800DE6497 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +60,7 @@
 		172681BB218A006E00DE6497 /* NorainuQuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				172681D3218A055C00DE6497 /* custom.m4a */,
 				172681BC218A006E00DE6497 /* AppDelegate.swift */,
 				172681BE218A006E00DE6497 /* ViewController.swift */,
 				172681C0218A006E00DE6497 /* Main.storyboard */,
@@ -62,6 +69,14 @@
 				172681C8218A006F00DE6497 /* Info.plist */,
 			);
 			path = NorainuQuizApp;
+			sourceTree = "<group>";
+		};
+		172681CE218A00C800DE6497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				172681CF218A00C800DE6497 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172681D4218A09A600DE6497 /* custom.m4a in Resources */,
 				172681C7218A006F00DE6497 /* LaunchScreen.storyboard in Resources */,
 				172681C4218A006F00DE6497 /* Assets.xcassets in Resources */,
 				172681C2218A006E00DE6497 /* Main.storyboard in Resources */,
